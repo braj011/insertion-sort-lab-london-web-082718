@@ -1,4 +1,5 @@
 function findMinAndRemove(array){
+  let minimum = 
 
 }
 
