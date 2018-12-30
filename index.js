@@ -13,9 +13,10 @@ function findMinAndRemove(array){
 
 function insertionSort(array){
   let sorted = []
+  let newMin
   while (array.length > 0) {
-    findMinAndRemove(array)
-    sorted.push(minimum)
+    let newMin = findMinAndRemove(array)
+    sorted.push(newMin)
   }
-
+  return sorted
 }
